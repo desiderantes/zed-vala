@@ -1,0 +1,15 @@
+id = "vala"
+name = "Vala"
+version = "0.1.0"
+schema_version = 1
+authors = ["desiderantes"]
+description = "Vala language support."
+repository = "https://github.com/desiderates/zed-vala"
+
+[language_servers.vala-language-server]
+name = "Vala Language Server"
+language = "vala"
+
+[grammars.vala]
+repository = "https://github.com/vala-lang/tree-sitter-vala"
+commit = "8f690bfa639f2b83d1fb938ed3dd98a7ba453e8b"
